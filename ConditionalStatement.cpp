@@ -23,7 +23,7 @@ int main()
     float bb,tb,BMI;
     string status_bmi;
 
-    cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----" <<endl;
+    cout << "----- Selamat Datang Mahasiswa Kelas D 2026 -----" <<endl;
     cout << "Masukkan Berat Badan (kg) : ";
     cin >> bb;
     cout << "Masukkan Tinggi Badan (M) : ";
