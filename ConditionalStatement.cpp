@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-float bmi(float bb, flloat tb)
+float bmi(float bb, float tb)
 {
-    return bb/(tb*tb)
+    return bb/(tb*tb);
 }
 
 string status(float r)
