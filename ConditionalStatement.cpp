@@ -23,16 +23,16 @@ int main()
     float bb,tb,r;
     string status;
 
+    cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----" <<endl;
     cout << "Masukkan Berat Badan (kg) : ";
     cin >> bb;
     cout << "Masukkan Tinggi Badan (M) : ";
     cin >> tb;
-
-    cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----" <<endl;
-    input(bb,tb);
-    r:bmi(bb,tb);
     cout <<endl;
     cout << "----- Hasil -----" <<endl;
-    cout << "BMI Anda : " <<r<<endl;
-    cout << "Status : " <<status(r)<<endl;
+    bmi =  BMI(bb,tb);
+    status = status_BeratBadan(bmi);
+
+    cout << "\nilai bmi anda : " <<bmi<<endl;
+    cout << "Status bmi anda : " <<status<<endl;
 }
