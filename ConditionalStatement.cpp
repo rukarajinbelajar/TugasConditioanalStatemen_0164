@@ -6,13 +6,13 @@ float bmi(float bb, float tb)
     return bb/(tb*tb);
 }
 
-string status(float r)
+string status(float bmi)
 {
-    if(r < 18.5)
+    if(bmi < 18.5)
         return "Berat Badan Kurang";
-    else if(r < 25)
+    else if(bmi < 25)
         return "Berat Badan Normal";
-    else if(r < 30)
+    else if(bmi < 30)
         return "Berat Badan Kelebihan";
     else
         return "Obesitas";
@@ -20,8 +20,8 @@ string status(float r)
 
 int main()
 {
-    float bb,tb,r;
-    string status;
+    float bb,tb,BMI;
+    string status_bmi;
 
     cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----" <<endl;
     cout << "Masukkan Berat Badan (kg) : ";
@@ -29,10 +29,10 @@ int main()
     cout << "Masukkan Tinggi Badan (M) : ";
     cin >> tb;
     cout <<endl;
-    cout << "----- Hasil -----" <<endl;
-    r =  bmi(bb,tb);
-    status = status(r);
+    BMI = bmi(bb,tb);
+    status_bmi = status(BMI);
 
-    cout << "\nilai bmi anda : " <<bmi<<endl;
-    cout << "Status bmi anda : " <<status<<endl;
+    cout << "----- Hasil -----" <<endl;
+    cout << "BMI Anda = " <<BMI<<endl;
+    cout << "status = "<<status_bmi<<endl;
 }
