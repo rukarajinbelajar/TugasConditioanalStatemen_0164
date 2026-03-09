@@ -17,3 +17,16 @@ string status(float r)
     else
         return "Obesitas";
 }
+
+int main()
+{
+    float berat,tinggi,r;
+    string status;
+
+    cout << "Masukkan Berat Badan (kg) : ";
+    cin >> bb;
+    cout << "Masukkan Tinggi Badan (M) : ";
+    cin >> tb;
+
+    cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----"
+}
