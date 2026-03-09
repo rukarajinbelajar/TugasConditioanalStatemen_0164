@@ -20,7 +20,7 @@ string status(float r)
 
 int main()
 {
-    float berat,tinggi,r;
+    float bb,tb,r;
     string status;
 
     cout << "Masukkan Berat Badan (kg) : ";
@@ -34,5 +34,5 @@ int main()
     cout <<endl;
     cout << "----- Hasil -----" <<endl;
     cout << "BMI Anda : " <<r<<endl;
-    cout << "Status : " <<Status(r)<<endl;
+    cout << "Status : " <<status(r)<<endl;
 }
