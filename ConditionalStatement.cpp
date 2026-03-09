@@ -28,5 +28,11 @@ int main()
     cout << "Masukkan Tinggi Badan (M) : ";
     cin >> tb;
 
-    cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----"
+    cout << "----- Selamat Datang Mahasiswa Kelas A 2025 -----" <<endl;
+    input(bb,tb);
+    r:bmi(bb,tb);
+    cout <<endl;
+    cout << "----- Hasil -----" <<endl;
+    cout << "BMI Anda : " <<r<<endl;
+    cout << "Status : " <<Status(r)<<endl;
 }
