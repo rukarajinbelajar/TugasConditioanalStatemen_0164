@@ -30,8 +30,8 @@ int main()
     cin >> tb;
     cout <<endl;
     cout << "----- Hasil -----" <<endl;
-    bmi =  BMI(bb,tb);
-    status = status_BeratBadan(bmi);
+    r =  bmi(bb,tb);
+    status = status(r);
 
     cout << "\nilai bmi anda : " <<bmi<<endl;
     cout << "Status bmi anda : " <<status<<endl;
